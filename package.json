@@ -1,0 +1,32 @@
+{
+  "name": "glimmerx-apollo-ssr-issue",
+  "version": "1.0.0",
+  "description": "SSR issue reproduction for glimmerx-apollo",
+  "main": "index.js",
+  "scripts": {
+    "ssr": "node ./server",
+    "dev": "vite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lifeart/_glimmerx-apollo-ssr-issue.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lifeart/_glimmerx-apollo-ssr-issue/issues"
+  },
+  "homepage": "https://github.com/lifeart/_glimmerx-apollo-ssr-issue#readme",
+  "devDependencies": {
+    "@apollo/client": "^3.4.16",
+    "@glimmerx/component": "^0.6.5",
+    "@glimmerx/core": "^0.6.5",
+    "@glimmerx/ssr": "^0.6.5",
+    "express": "^4.17.1",
+    "glimmer-apollo": "^0.4.0",
+    "graphql": "^15.6.1",
+    "vite": "^2.6.7",
+    "vite-plugin-glimmerx": "0.6.6"
+  }
+}
